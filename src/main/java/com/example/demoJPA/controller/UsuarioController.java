@@ -22,7 +22,7 @@ public class UsuarioController {
 	
 	@GetMapping("/{id}")
 	public Usuario getUser(@PathVariable Long id) {
-		
+		System.out.print("XD");
 		return usuarioService.getUser(id).get();
 	}
 	
