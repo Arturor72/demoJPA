@@ -19,6 +19,7 @@ public class UsuarioController {
 	@Autowired
 	UsuarioService usuarioService;
 	
+	
 	@GetMapping("/{id}")
 	public Usuario getUser(@PathVariable Long id) {
 		
